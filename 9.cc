@@ -6,13 +6,6 @@
 #include "ns3/applications-module.h"
 #include "ns3/ipv4-global-routing-helper.h"
 
-// Default Network Topology
-//
-//     10.1.1.0                           30.1.3.0
-// m0------m1 -------------- n1 n2 n3 n4 -------------- n5--------N6
-// point-to-point            |  |  |  |  point-to-point
-//                        ================
-//                          LAN 10.1.2.0
 
 using namespace ns3;
 
